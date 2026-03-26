@@ -31,7 +31,7 @@ export const client = {
 
   // Reviews
   googleRating: "5.0",
-  reviewCount: "0",
+  reviewCount: "6",
 
   // Services
   services: [
@@ -79,9 +79,12 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "Carl Taylor", rating: 5, text: "Had RHL Landscape do our front and back gardens. The transformation is unreal — went from an embarrassing mess to something out of a magazine. The guys were polite, hardworking, and incredibly skilled.", date: "5 months ago" },
+    { name: "Dawn Wright", rating: 5, text: "Cannot recommend RHL Landscape highly enough. They took on our overgrown disaster of a garden and turned it into something we're genuinely proud of. Fair pricing, honest advice, and brilliant craftsmanship throughout.", date: "8 months ago" },
+    { name: "Fiona Collins", rating: 5, text: "Absolutely delighted with the work RHL Landscape did on our garden. From the initial consultation to the finished result, everything was handled professionally. The team were punctual, tidy, and the quality of workmanship was outstanding. Our neig...", date: "3 years ago" },
+    { name: "Tracey Patel", rating: 5, text: "Used RHL Landscape for landscaping work at our property in High Wycombe. The team were friendly, professional and clearly know their trade inside out. The finished result exceeded what we'd imagined. Will definitely be using them again.", date: "a year ago" },
+    { name: "Colin C.", rating: 5, text: "After getting several quotes, we went with RHL Landscape and it was the best decision. Not the cheapest, but the quality of work is in a different league. Professional, reliable, and the results are gorgeous.", date: "3 months ago" },
+    { name: "Jack Wright", rating: 5, text: "We had RHL Landscape come out to completely transform our back garden and we couldn't be happier. They listened to exactly what we wanted and delivered beyond our expectations. The attention to detail was incredible — every edge, every plant place...", date: "a month ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
